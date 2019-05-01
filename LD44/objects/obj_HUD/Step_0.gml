@@ -1,0 +1,2 @@
+/// @description XXX
+allowDrawEvent = true;

@@ -1,0 +1,30 @@
+{
+    "id": "05182009-21c0-4d38-b458-891aa5764882",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "05182009-21c0-4d38-b458-891aa5764882",
+    "children": [
+        "876df786-e0f5-4471-8db8-27b2ab09948f",
+        "2974c4e6-0c4b-4133-ba88-c5e2a5978d1e",
+        "34fe8e97-7937-462a-9460-3f738203fdd2",
+        "ddc789cb-b483-4867-afc9-bba47b95da5c",
+        "ad449c77-dad8-4a6b-b01e-9847b581e21c",
+        "2edd04bb-e3b1-4b3c-b4bd-f8be4f39f660",
+        "4a409be7-cb90-466f-bcc1-d814e2758cd5",
+        "9d6da4df-6b7a-41b7-bd5b-f09391dc8df2",
+        "8c7704a3-8db8-4b32-b4a5-6325868a7b8b",
+        "7b170596-6b90-4400-9a46-f05c3c2dc6f6",
+        "f5087ba9-7074-4410-a962-afe427702ac9",
+        "2fe3cdd4-b003-4ae3-b27a-2e750321093c",
+        "353b4c66-514c-4e5c-b7aa-37ca1efc8d82",
+        "856c47b4-9b8f-4879-b770-0311931d688e",
+        "a1422fdc-1d44-47dd-8c00-11d33e7ce733",
+        "c5d17d27-dc32-4f29-8b14-86835ac0c8b5",
+        "a0d27f7a-d5b5-43a1-9b37-f46126c852a2",
+        "f688d2e4-149e-4dc7-81bf-4451750cdda0"
+    ],
+    "filterType": "GMSound",
+    "folderName": "Zombie",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

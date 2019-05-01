@@ -1,0 +1,101 @@
+{
+    "id": "0e0b9d93-f666-4a2e-b24c-4f4cca7003f8",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_instruction",
+    "eventList": [
+        {
+            "id": "924f30a0-0780-41cd-bf7e-fdcba8cbc6e7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0e0b9d93-f666-4a2e-b24c-4f4cca7003f8"
+        },
+        {
+            "id": "8f5524ee-1613-4b3c-b865-9e3447d11bb7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "0e0b9d93-f666-4a2e-b24c-4f4cca7003f8"
+        },
+        {
+            "id": "b231561c-e923-40ad-a83c-c03ef2aa1fbd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "0e0b9d93-f666-4a2e-b24c-4f4cca7003f8"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "9a74a617-e3ee-4e02-8f04-9208e81254ae",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "",
+            "varName": "instructionText",
+            "varType": 2
+        },
+        {
+            "id": "5ceb8dba-290e-4c74-80ee-80c6a8528672",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "instructionOrder",
+            "varType": 1
+        },
+        {
+            "id": "2deda371-48ac-4375-aab4-7c0ccddc70e6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_pointerFinger",
+            "varName": "handSprite",
+            "varType": 5
+        }
+    ],
+    "solid": false,
+    "spriteId": "023efe86-0b58-4546-8f31-398674f82f16",
+    "visible": true
+}
