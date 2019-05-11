@@ -142,7 +142,7 @@ switch(itmName)
 				monsterName = "Wounded Demon";
 				lifeMax = 150;
 				sealDamageDelay = 12;
-				scr_addItemDrop("intestines",100,"toiletPaper",50);
+				scr_addItemDrop("brain",100,"eyeBall",100);
 				scr_addMonsterPart(obj_head_mummy,eBodyParts.bp_head,0,-16,-2);
 
 				scr_addMonsterPart(obj_arm_mummy,eBodyParts.bp_leftArm,-13,-14,-1);
@@ -173,7 +173,7 @@ switch(itmName)
 					monsterName = "Mummified Demon";
 					lifeMax = 200;
 					sealDamageDelay = 10;
-					scr_addItemDrop("toiletPaper",100,"toiletPaper",100,"bones",100);
+					scr_addItemDrop("toiletPaper",100,"bones",100,"stomach",50,"goatHeart",50,"brain",50);
 					scr_addMonsterPart(obj_head_mummy,eBodyParts.bp_head,0,-16,-2);
 
 					scr_addMonsterPart(obj_arm_mummy,eBodyParts.bp_leftArm,-13,-14,-1);
@@ -685,12 +685,12 @@ switch(itmName)
 					monsterName = "Demon Intern";
 					lifeMax = 100;
 					sealDamageDelay = 15;
-					scr_addItemDrop("stapler",100,"bones",100);
+					scr_addItemDrop("stapler",100,"demonHorn",100);
 					scr_addMonsterPart(obj_head_mummy,eBodyParts.bp_head,0,-16,-2);
 
 					scr_addMonsterPart(obj_arm_clown,eBodyParts.bp_leftArm,-13,-14,-1);
 					scr_addMonsterPart(obj_arm_clown,eBodyParts.bp_rightArm,13,-14,-1);
-					scr_addMonsterPart(obj_legs_office,eBodyParts.bp_legs,1,0,1);
+					scr_addMonsterPart(obj_legs_demon,eBodyParts.bp_legs,1,0,1);
 					//scr_addMonsterPart(obj_back_cyclops,eBodyParts.bp_back,0,-20,2);
 				}
 				break;
@@ -715,7 +715,7 @@ switch(itmName)
 					monsterName = "Demon Secretary";
 					lifeMax = 150;
 					sealDamageDelay = 13;
-					scr_addItemDrop("complaint",100,"demonTongue",100,"bones",100);
+					scr_addItemDrop("complaint",100,"demonTongue",100);
 					scr_addMonsterPart(obj_head_succubus,eBodyParts.bp_head,0,-16,-2);
 
 					scr_addMonsterPart(obj_arm_succubus,eBodyParts.bp_leftArm,-13,-14,-1);

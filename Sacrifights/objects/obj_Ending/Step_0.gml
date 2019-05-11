@@ -26,7 +26,12 @@ switch(step)
 		if(timer==0){newImg = bck_victory3; obj_HUD.fadeOutTo = 0;}
 		if(keyboard_check_pressed(ord("C")) && timer<120){timer = 120;}
 		if(timer==120){obj_HUD.fadeOutTo = 1;}
-		if(timer>150){game_restart();}
+		if(timer>150)
+		{
+			with(obj_HUD){instance_destroy();}
+			with(obj_audioSystem){instance_destroy();}
+			game_restart();
+		}
 		break;
 }
 

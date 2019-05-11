@@ -1,7 +1,7 @@
 ///function scr_time
 ///param movesFrw
-
 var timeMoves = argument0
+obj_player.canEat = true;
 
 repeat(timeMoves)
 {

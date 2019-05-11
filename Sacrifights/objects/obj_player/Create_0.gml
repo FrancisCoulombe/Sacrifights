@@ -53,6 +53,7 @@ steppingLeft = false;
 l_inventory = ds_list_create();
 
 preventActivate = 0;
+canEat = false;
 
 for(var _i=0; _i<10; _i+=1)
 {
